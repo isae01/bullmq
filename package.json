@@ -1,0 +1,16 @@
+{
+  "name": "tarea-3-bullmq",
+  "version": "1.0.0",
+  "description": "Cola de trabajos con Node.js, BullMQ y Redis",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "worker": "node src/worker.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.0.0",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0",
+    "ioredis": "^5.0.0"
+  }
+}
